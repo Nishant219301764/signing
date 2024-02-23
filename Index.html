@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+
+<div class="login">
+    <div class="form-head">Create an Account</div>
+    <form class="forms" action="">
+        <div class="form-entry">
+            <label for="name">Full Name</label>
+            <input type="text" name="name" id="name" placeholder="Nishant Kumar" required> 
+        </div>
+
+        <div class="form-entry">
+            <label for="email">Email</label> 
+            <input type="email" name="email" id="email" placeholder="1234Nishant@gmail.com" required> 
+        </div>
+
+        <div class="form-entry">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="*********" required> 
+
+        </div>
+            <div class="form-entry">
+                <label for="phone">Phone Number</label> 
+                <input type="number" name="phone" id="phone" placeholder="9999999912" minlength="10" maxlength="10" required> 
+
+            </div>
+
+    </form>
+
+    <div class="form-button">
+        <div id="sign" > <button disabled type="submit" > Sign Up</button> </div>
+        <div id="or">OR</div>
+        <div id="signGoogle">
+            <img class="google-logo" src="https://img.icons8.com/color/24/google-logo.png" alt="Google Logo">
+            <button disabled type="submit">Sign Up with Google</button>
+        </div>
+    </div>
+
+    <div class="footer">
+    
+        Already have an Account? <span>Login</span>
+
+    </div>
+</div>
+
+</body>
+</html>
